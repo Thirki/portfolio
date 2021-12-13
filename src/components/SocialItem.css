@@ -1,0 +1,51 @@
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+.social-item .social-item-emote {
+  width: 62px;
+  height: 62px;
+  background-color: #212121;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  transition: all 0.2s;
+}
+
+.social-item .social-item-emote span {
+  margin: 0;
+  padding: 0;
+  height: 2.5rem;
+  color: #34c965;
+  transition: all 0.2s;
+}
+
+.social-item .social-item-emote:hover {
+  background-color: #1a1a1a;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.social-item .social-item-emote:hover span {
+  color: #2aa151;
+  transition: all 0.2s;
+}
+
+.social-item h3 {
+  padding: 0;
+  margin: 0;
+  margin-top: 19px;
+  color: #f4f4f4;
+}
+.social-item p {
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  color: #818181;
+}

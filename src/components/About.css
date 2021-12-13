@@ -1,0 +1,16 @@
+main {
+  text-align: center;
+  margin-top: 30px;
+}
+
+main h1 {
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+main p {
+  width: 50%;
+  color: #818181;
+  margin: 0 auto;
+}

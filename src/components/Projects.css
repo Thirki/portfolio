@@ -1,0 +1,21 @@
+#Projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+#Projects h2 {
+  color: #f4f4f4;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.project-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

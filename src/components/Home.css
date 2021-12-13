@@ -1,0 +1,74 @@
+#Home {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+#Home h1 {
+  color: #f4f4f4;
+  padding: 0;
+  margin: 0;
+}
+#Home h1 span {
+  color: #34c965;
+}
+
+#Home p {
+  color: #818181;
+  padding: 0;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.hero-image-container {
+  width: 40%;
+}
+
+.button-container button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 30%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button-container button:first-child {
+  margin-right: 15px;
+}
+
+.button-container .button-cv {
+  border: 2px solid #cb369a;
+  background-color: #cb369a;
+  color: #171717;
+  transition: all 0.2s;
+}
+.button-container .button-cv:hover {
+  border: 2px solid #a32a7c;
+  background-color: #a32a7c;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all 0.2s;
+}
+
+.button-container .button-contato {
+  border: 2px solid #1d1d1d;
+  color: #f4f4f4;
+  transition: all 0.2s;
+}
+.button-container .button-contato:hover {
+  border: 2px solid #2e2e2e;
+  color: #c3c3c3;
+  transition: all 0.2s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.hero-image-container {
+  /* background-color: yellow; */
+}

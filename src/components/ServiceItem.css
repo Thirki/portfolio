@@ -1,0 +1,40 @@
+.service-item {
+  background-color: #212121;
+  padding: 30px;
+  border: 1px solid #333333;
+  border-bottom: 5px solid #cb369a;
+  width: 25%;
+  transition: all 0.5s;
+}
+
+.service-item:hover {
+  border-bottom: 5px solid #ff00ff;
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+
+#Services .service-item h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #828282;
+  transition: all 0.5s;
+}
+
+#Services .service-item:hover h3 {
+  color: #a3a3a3;
+  transition: all 0.5s;
+}
+
+.service-item svg {
+  font-size: 3rem;
+  color: #cb369a;
+  padding-bottom: 3.13rem;
+  transition: all 0.5s;
+}
+
+.service-item:hover svg {
+  color: #ff00ff;
+  transition: all 0.5s;
+}

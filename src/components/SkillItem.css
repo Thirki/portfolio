@@ -1,0 +1,23 @@
+#Skills .skills-container .skill-item {
+  background-color: #212121;
+  border: 1px solid #333333;
+  transition: all 0.2s;
+  margin: 12.5px 12.5px;
+}
+
+#Skills .skills-container .skill-item svg {
+  font-size: 4rem;
+  padding: 1rem;
+  color: #cb369a;
+  transition: all 0.2s;
+}
+
+#Skills .skills-container .skill-item:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
+
+#Skills .skills-container .skill-item:hover svg {
+  color: #fd2bff;
+  transition: all 0.2s;
+}
