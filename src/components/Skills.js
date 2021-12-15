@@ -9,12 +9,12 @@ function Skills() {
     <section id="Skills">
      <h3>Minhas skills</h3>
      <div className='skills-container'>
-      <SkillItem icon={<FaHtml5/>} linkTo="https://developer.mozilla.org/pt-BR/docs/Web/HTML"/>
-      <SkillItem icon={<FaCss3Alt/>} linkTo="https://developer.mozilla.org/pt-BR/docs/Web/CSS"/>
-      <SkillItem icon={<FaJs/>} linkTo="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"/>
-      <SkillItem icon={<FaReact/>} linkTo="https://pt-br.reactjs.org/"/>
-      <SkillItem icon={<SiRedux/>} linkTo="https://redux.js.org/"/>
-      <SkillItem icon={<SiGithub/>} linkTo="https://github.com/"/>
+      <SkillItem icon={<FaHtml5/>} linkTo="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noreferrer"/>
+      <SkillItem icon={<FaCss3Alt/>} linkTo="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="noreferrer"/>
+      <SkillItem icon={<FaJs/>} linkTo="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noreferrer"/>
+      <SkillItem icon={<FaReact/>} linkTo="https://pt-br.reactjs.org/" target="_blank" rel="noreferrer"/>
+      <SkillItem icon={<SiRedux/>} linkTo="https://redux.js.org/" target="_blank" rel="noreferrer"/>
+      <SkillItem icon={<SiGithub/>} linkTo="https://github.com/" target="_blank" rel="noreferrer"/>
      </div>
     </section>
   )

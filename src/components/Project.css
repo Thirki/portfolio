@@ -1,10 +1,11 @@
 .project-container {
   background-color: #212121;
   width: 30%;
+  min-width: 315px;
   overflow: hidden;
   border: 1px solid #333333;
   padding: 10px;
-  margin: 15px 0;
+  margin: 15px 7px;
 }
 
 .project-container:hover {
@@ -15,12 +16,12 @@
 .project-container .project-image {
   border: 1px solid #333333;
   width: 100%;
-  height: 130px;
+  height: 260px;
 }
 
 .project-container .project-image img {
   width: 100%;
-  height: 130px;
+  height: 260px;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -40,4 +41,64 @@
 .project-container h3 {
   margin: 0;
   padding: 15px 0;
+  display: inline-block;
+}
+
+.project-container ul {
+  padding: 0;
+  margin: 15px 0 0 0;
+  display: flex;
+}
+
+.project-container ul li {
+  list-style: none;
+}
+
+.project-container ul li svg {
+  font-size: 1.5rem;
+  color: #cc00cc;
+  transition: all 0.2s;
+  margin-left: 1rem;
+}
+
+.project-container ul li svg:first-child {
+  margin-right: 30px;
+}
+
+.project-container ul .disable a:hover svg,
+.project-container ul .disable a:hover p {
+  color: #7e7e7e;
+}
+
+.project-container ul li a p {
+  display: flex;
+  align-items: center;
+  color: #f5f5f5;
+}
+
+.project-container ul li a:hover p {
+  color: #dcdcdc;
+  transition: all 0.2s;
+}
+
+.project-container ul li a:hover svg {
+  color: #ff00ff;
+  transition: all 0.2s;
+}
+
+.project-container ul .disable svg,
+.project-container ul .disable p {
+  color: #7e7e7e;
+}
+
+@media (max-width: 892px) {
+  .project-container {
+    /* background-color: #212121; */
+    width: 90%;
+    /* min-width: 315px;
+    overflow: hidden;
+    border: 1px solid #333333;
+    padding: 10px;
+    margin: 15px 7px; */
+  }
 }
