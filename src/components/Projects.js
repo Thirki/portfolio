@@ -15,14 +15,14 @@ function Projects() {
           preview="https://mystifying-chandrasekhar-fa4b44.netlify.app/"
         />
         <Project
-          title="Product-List"
+          title="Product List"
           image="https://user-images.githubusercontent.com/69635807/146056369-942aa248-5212-443e-a7ce-cebe61eeaa92.png"
           linkTo=""
           technologies="React"
           preview="https://dazzling-easley-4f7da5.netlify.app/"
         />
         <Project
-          title="DevFinder"
+          title="Podcastr"
           image="https://repository-images.githubusercontent.com/359263816/763c0a80-a07b-11eb-8c1e-753efb2f253a"
           linkTo=""
           technologies="Next.js, React, TypeScript"
@@ -40,7 +40,7 @@ function Projects() {
           technologies="HTML, CSS"
         />
         <Project
-          title="FAQ-accordion-card"
+          title="FAQ accordion card"
           image="https://raw.githubusercontent.com/Thirki/FrontendMentor-FAQ-accordion-card/main/design/desktop-preview.jpg"
           linkTo=""
           technologies="HTML, CSS, JavaScript"
