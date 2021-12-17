@@ -50,3 +50,32 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 700px) {
+  #menu-nav .logo {
+    font-size: 1.5rem;
+  }
+
+  #menu-nav ul li a {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 600px) {
+  .menu-nav-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #menu-nav ul {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #menu-nav .logo {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0;
+  }
+}

@@ -10,7 +10,8 @@ main h1 {
   margin-bottom: 30px;
 }
 main p {
-  width: 50%;
+  width: 90%;
+  max-width: 800px;
   color: #818181;
   margin: 0 auto;
 }

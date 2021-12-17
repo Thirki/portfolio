@@ -7,6 +7,10 @@
   transition: all 0.5s;
 }
 
+.service-item:nth-child(2) {
+  margin: 0 15px;
+}
+
 .service-item:hover {
   border-bottom: 5px solid #ff00ff;
   transform: scale(1.05);
@@ -37,4 +41,21 @@
 .service-item:hover svg {
   color: #ff00ff;
   transition: all 0.5s;
+}
+
+@media (max-width: 930px) {
+  #Services .service-item h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 930px) {
+  .service-item {
+    width: 100%;
+  }
+  .service-item:nth-child(2) {
+    margin: 15px 0;
+  }
+  #Services .service-item h3 {
+    font-size: 2rem;
+  }
 }

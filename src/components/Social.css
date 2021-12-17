@@ -11,4 +11,9 @@
   list-style: none;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#social ul li {
+  width: 50%;
 }

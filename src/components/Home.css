@@ -25,50 +25,126 @@
   width: 60%;
 }
 .hero-image-container {
+  display: flex;
   width: 40%;
 }
 
-.button-container button {
+.button-container {
+  display: flex;
+}
+
+.button-container a {
   border: 0;
   padding: 0;
   margin: 0;
-  width: 30%;
-  padding: 15px;
+  max-width: 300px;
+  width: 50%;
   border-radius: 5px;
   background-color: transparent;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
 }
-.button-container button:first-child {
+
+.button-container a {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container a:first-child {
   margin-right: 15px;
 }
 
-.button-container .button-cv {
+.button-container .a-cv {
   border: 2px solid #cb369a;
   background-color: #cb369a;
   color: #171717;
   transition: all 0.2s;
 }
-.button-container .button-cv:hover {
+.button-container .a-cv {
+  color: #171717;
+  transition: all 0.2s;
+}
+
+.button-container .a-cv:hover {
   border: 2px solid #a32a7c;
   background-color: #a32a7c;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   transition: all 0.2s;
 }
 
-.button-container .button-contato {
+.button-container .a-contato {
   border: 2px solid #1d1d1d;
   color: #f4f4f4;
   transition: all 0.2s;
 }
-.button-container .button-contato:hover {
+
+.button-container .a-contato {
+  color: #f4f4f4;
+  transition: all 0.2s;
+}
+
+.button-container .a-contato:hover {
   border: 2px solid #2e2e2e;
   color: #c3c3c3;
   transition: all 0.2s;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.hero-image-container {
-  /* background-color: yellow; */
+.button-container .a-contato:hover a {
+  color: #c3c3c3;
+  transition: all 0.2s;
+}
+
+.button-container a {
+  text-decoration: none;
+}
+
+@media (max-width: 1300px) {
+  .button-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-container a {
+    width: 50%;
+  }
+
+  #Home {
+    flex-direction: column;
+    padding-top: 100px;
+  }
+
+  .hero-image-container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .button-container a {
+    height: 80px;
+  }
+}
+
+@media (max-width: 640px) {
+  .button-container {
+    flex-direction: column;
+  }
+
+  .button-container a {
+    width: 100%;
+    height: 25px;
+    margin: 0 !important;
+  }
+
+  .button-container a:first-child {
+    margin-bottom: 15px !important;
+  }
+  .hero-image-container {
+    width: 90%;
+  }
 }

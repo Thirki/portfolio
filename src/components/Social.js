@@ -8,7 +8,12 @@ function Social() {
     <div id="social">
       <ul>
         <li>
-          <SocialItem title="Meu nome" description="Cicero Henrique Gomes" emote={<FaRegSmile/>}/>
+          <SocialItem 
+          title="Quem sou" 
+          description="Cicero Henrique Gomes" 
+          emote={<FaRegSmile/>}
+          linkTo="https://media-exp1.licdn.com/dms/image/D4E35AQERh483FTvLMg/profile-framedphoto-shrink_200_200/0/1638292774862?e=1639854000&v=beta&t=9UkP6M1X9tS-F8YNPrOQmDX7o5RaONmZWQX6OxCdXaQ"
+          />
         </li>
         <li>
           <SocialItem

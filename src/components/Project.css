@@ -93,12 +93,6 @@
 
 @media (max-width: 892px) {
   .project-container {
-    /* background-color: #212121; */
     width: 90%;
-    /* min-width: 315px;
-    overflow: hidden;
-    border: 1px solid #333333;
-    padding: 10px;
-    margin: 15px 7px; */
   }
 }
