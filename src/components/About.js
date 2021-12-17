@@ -5,12 +5,8 @@ export default function About() {
   return (
     <main id="About">
       <h1>Sobre mim</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-           consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-             cupidatat non proident
+      <p>
+      Sou novo no mercado de tecnologia e estudo desenvolvimento full-stack na escola Trybe de programação, por ser uma pessoa autodidata eu já tenho uma bagagem grande de desenvolvimento front-end, realizei alguns bootcamps, cursos e  projetos sozinho nessa área, e acredito estar mais do que preparado para embarcar no mercado de trabalho.
       </p>
     </main>
   )
