@@ -48,4 +48,11 @@
   margin: 0;
   margin-top: 5px;
   color: #818181;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .social-item p {
+    font-size: 0.9rem;
+  }
 }
