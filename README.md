@@ -1,5 +1,6 @@
+# Portfolio
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/69635807/161143745-b903e782-9112-4fb0-8d6e-e92fee95f525.png">
+  <img height="300px" src="https://user-images.githubusercontent.com/69635807/161143745-b903e782-9112-4fb0-8d6e-e92fee95f525.png">
 </p>
 
 ![Portfolio](https://user-images.githubusercontent.com/69635807/161141877-94ffebd9-3186-40dd-9599-eaca5bb2fc6c.png)
